@@ -1,0 +1,33 @@
+Wrapper Class
+Wrapper Class (Kelas Pembungkus) adalah suatu mekanisme yang digunakan untuk mengconvert atau mengubah suatu nilai yang di definisikan, dari tipe data primitif menjadi sebuah nilai dengan tipe data referensi (Objek). Selain itu, Wrapper Class mendukung method dari tipe data primitif, contohnya seperti Boolean, Character, Integer, Long, Float, dan sebagainya.
+Pada bahasa pemrograman Java, terdapat 2 jenis tipe data, yaitu primitif dan referensi (objek), Tipe Data Primitif adalah tipe data yang tidak memiliki method, hanya memiliki data saja. Tipe data ini bukanlah sebuah object, sedangkan Tipe Data Referensi adalah tipe data yang digunakan untuk memegang referensi dari sebuah object ( instance dari class).
+Berikut ini merupakan table yang menjelaskan macam-macam tipe data primitif dan referensi pada Java :
+
+Tipe Data Primitif | Tipe Data Referensi
+char                 Character
+byte                 Byte
+short	               Short
+int	                 Integer
+long                 Long
+boolean              Boolean
+float                Float
+double               Double
+
+Contoh :
+WrapperClassExample.java
+
+Perbedaan Final, Finally dan Finalize
+1.	Final
+Merupakan keyword untuk mendeklarasikan bahwa sebuah variabel/atribut tidak dapat diubah lagi isinya (konstan), jika final disebutkan di method, artinya method tersebut tidak dapat di override oleh subclassnya, jika final disebutkan di class, artinya class tersebut tidak dapat diturunkan lagi.
+Contoh :
+FinalExample.java
+
+2.	Finally
+Merupakan tag dalam try-finally yang digunakan untuk memastikan bahwa kode didalam finally akan dieksekusi walaupun dalam try sukses / gagal.
+Contoh :
+FinallyExample.java
+
+3.	Finalize
+Merupakan method kelas Object yang dieksekusi saat garbace collection menghapus sebuah object yang sudah tidak terpakai.
+Contoh :
+FinalizeExample.java
