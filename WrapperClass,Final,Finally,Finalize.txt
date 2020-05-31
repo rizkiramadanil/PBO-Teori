@@ -6,8 +6,8 @@ Berikut ini merupakan table yang menjelaskan macam-macam tipe data primitif dan 
 Tipe Data Primitif | Tipe Data Referensi
 char                 Character
 byte                 Byte
-short	               Short
-int	                 Integer
+short                Short
+int                  Integer
 long                 Long
 boolean              Boolean
 float                Float
